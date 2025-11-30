@@ -523,6 +523,7 @@ class _BenefitTile extends StatelessWidget {
                   const SizedBox(height: 4),
                   Text(
                     subtitle,
+                    maxLines: 2,
                     style: GoogleFonts.chivoMono(
                       fontSize: 14,
                       height: 1.35,
